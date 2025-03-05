@@ -1,5 +1,5 @@
 import React from "react";
-import useGetInputValues from "../hooks/useGetInputValues";
+import useGetInputValues from "../hooks/UseGetInputValues";
 
 function Todo({ TodoHandler }) {
   const { values, changeHandler, resetHandler } = useGetInputValues({
